@@ -1,25 +1,24 @@
 /**
  * Created by Administrator on 2018/3/27.
  */
+import './index.less';
 import React from 'react';
 import {Provider,connect} from 'react-redux';
-import {HashRouter} from 'react-router-dom';
+import {HashRouter,withRouter,Route} from 'react-router-dom';
 
 
-import RouterSwitch from '../components/routerSwitch';
+import SwitchRouter from '../components/switchRouter';
+
 import Header from '../views/header';
-
-import './index.less';
-
 
 export default connect(state => {
     return state.routerData;
-})(({list}) => {
+})(({list,headerNavData}) => {
     return <HashRouter>
         <React.Fragment>
-            <Header />
+            <Header data={headerNavData}/>
             <div className="body">
-                <RouterSwitch data={list} />
+                <SwitchRouter data={list} />
             </div>
         </React.Fragment>
     </HashRouter>

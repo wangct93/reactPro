@@ -4,29 +4,10 @@
 
 
 
-export let requestData = (params) => {
+export let loadData = () => {
     return {
-        type:'requestBlogData',
-        params
+        type:'loadHomeData'
     }
 };
 
-export let turnPage = (num,size) => {
-    return {
-        type:'blogTurnPage',
-        num,
-        size
-    }
-};
-export let search = (keyword) => {
-    return {
-        type:'searchBlog',
-        keyword
-    }
-};
-export let changeSort = (data) => {
-    return {
-        type:'changeBlogSort',
-        data
-    }
-};
+

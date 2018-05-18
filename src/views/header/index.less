@@ -1,19 +1,27 @@
 @import '../../common/less/common.less';
 
 .header{
-    position: relative;
-    display: flex;
-    align-items:center;
-    justify-content: center;
-    background-color: @bgColor;
-    color: #fff;
-    height: 50px;
-    background-image:url('../../common/img/favicon.ico');
-    > .anticon-left{
-        position: absolute;
-        left: 10px;
-        top: 50%;
-        margin-top: -8px;
-        cursor: pointer;
+    background-color: @headerBgColor;
+    padding-left: 300px;
+    > .nav-box{
+        display: flex;
+        > .nav-item{
+            height: 50px;
+            line-height: 50px;
+            color: @headerColor;
+            padding: 0 15px;
+            border-left: 1px solid @headerBorderColor;
+            border-right: 1px solid @headerBorderColor;
+            margin-right: -1px;
+            cursor: pointer;
+            &:hover,
+            &.active{
+                background-color: @headerHoverBgColor;
+            }
+        }
+        .anticon{
+            font-size: 16px;
+            margin-right: 4px;
+        }
     }
 }

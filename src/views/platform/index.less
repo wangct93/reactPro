@@ -1,0 +1,64 @@
+@import "../../common/less/common";
+@import "./sideNav";
+
+@rightHeaderBgColor:#F2F2F2;
+@rightHeaderBorderColor:#d9d9d9;
+@activeColor:#C91414;
+
+.platform-container{
+    display: flex;
+    > .left{
+        flex:0 0 180px;
+    }
+    > .right{
+        flex:1;
+    }
+    .right-header{
+        height: 40px;
+        background-color: @rightHeaderBgColor;
+        text-align: right;
+        border-bottom: 2px solid @rightHeaderBorderColor;
+    }
+    .tab-list{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 20px;
+        a{
+            display: block;
+            height: 40px;
+            line-height: 40px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #606060;
+            margin: 0 10px;
+            cursor: pointer;
+            padding: 0 10px 0 38px;
+            box-sizing: border-box;
+            background-position: 8px center;
+            background-repeat:no-repeat;
+            border-bottom: 3px solid transparent;
+            &.active{
+                color:@activeColor;
+                border-bottom-color:@activeColor;
+            }
+        }
+    }
+    .icon-cly{
+        background-image: url("./img/icon_cly.png");
+        &.active{
+            background-image: url("./img/icon_cly_h.png");
+        }
+    }
+    .icon-shy{
+        background-image: url("./img/icon_shy.png");
+        &.active{
+            background-image: url("./img/icon_shy_h.png");
+        }
+    }
+    .icon-ypy{
+        background-image: url("./img/icon_ypy.png");
+        &.active{
+            background-image: url("./img/icon_ypy_h.png");
+        }
+    }
+}

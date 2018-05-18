@@ -2,195 +2,48 @@
  * Created by Administrator on 2018/3/7.
  */
 import {dispatch} from '../store';
+import {Url} from './config';
 let defaultState = {
-    menuData:[
-        [
-            {
-                iconCls:'code-o',
-                path:'/food',
-                text:'美食'
-            },
-            {
-                iconCls:'code-o',
-                path:'/cs',
-                text:'超市'
-            },
-            {
-                iconCls:'code-o',
-                path:'/fruit',
-                text:'生鲜果蔬'
-            },
-            {
-                iconCls:'code-o',
-                path:'/aa',
-                text:'测试1'
-            },
-            {
-                iconCls:'code-o',
-                path:'/aa',
-                text:'测试1'
-            },
-            {
-                iconCls:'code-o',
-                path:'/aa',
-                text:'测试1'
-            },
-            {
-                iconCls:'code-o',
-                path:'/aa',
-                text:'测试1'
-            },
-            {
-                iconCls:'code-o',
-                path:'/aa',
-                text:'测试1'
-            },
-            {
-                iconCls:'code-o',
-                path:'/aa',
-                text:'测试1'
-            },
-            {
-                iconCls:'code-o',
-                path:'/aa',
-                text:'测试1'
-            }
-        ],
-        [
-            {
-                iconCls:'code-o',
-                path:'/aa',
-                text:'测试21'
-            },
-            {
-                iconCls:'code-o',
-                path:'/aa',
-                text:'测试21'
-            },
-            {
-                iconCls:'code-o',
-                path:'/aa',
-                text:'测试21'
-            },
-            {
-                iconCls:'code-o',
-                path:'/aa',
-                text:'测试21'
-            },
-            {
-                iconCls:'code-o',
-                path:'/aa',
-                text:'测试21'
-            },
-            {
-                iconCls:'code-o',
-                path:'/aa',
-                text:'测试21'
-            },
-            {
-                iconCls:'code-o',
-                path:'/aa',
-                text:'测试21'
-            },
-            {
-                iconCls:'code-o',
-                path:'/aa',
-                text:'测试21'
-            },
-            {
-                iconCls:'code-o',
-                path:'/aa',
-                text:'测试2'
-            },
-            {
-                iconCls:'code-o',
-                path:'/aa',
-                text:'测试2'
-            }
-        ],
-        [
-            {
-                iconCls:'code-o',
-                path:'/aa',
-                text:'测试321'
-            },
-            {
-                iconCls:'code-o',
-                path:'/aa',
-                text:'测试321'
-            },
-            {
-                iconCls:'code-o',
-                path:'/aa',
-                text:'测试321'
-            },
-            {
-                iconCls:'code-o',
-                path:'/aa',
-                text:'测试321'
-            },
-            {
-                iconCls:'code-o',
-                path:'/aa',
-                text:'测试321'
-            },
-            {
-                iconCls:'code-o',
-                path:'/aa',
-                text:'测试321'
-            },
-            {
-                iconCls:'code-o',
-                path:'/aa',
-                text:'测试321'
-            },
-            {
-                iconCls:'code-o',
-                path:'/aa',
-                text:'测试321'
-            },
-            {
-                iconCls:'code-o',
-                path:'/aa',
-                text:'测试32'
-            },
-            {
-                iconCls:'code-o',
-                path:'/aa',
-                text:'测试32'
-            }
-        ]
-    ],
-    czyhData:[
+    menuList:[
         {
-            title:'单独撒a',
-            intro:'是经典款',
-            src:'img/1.jpg'
+            iconCls:'menu-ajgl',
+            text:'案件管理',
+            path:'/ajgl'
         },
         {
-            title:'单独撒a',
-            intro:'是经典款',
-            src:'img/1.jpg'
+            iconCls:'menu-cbgl',
+            text:'串并管理',
+            path:'/cbgl'
         },
         {
-            title:'单独撒a',
-            intro:'是经典款',
-            src:'img/1.jpg'
+            iconCls:'menu-ajxc',
+            text:'案件协查',
+            path:'/ajxc'
         },
         {
-            title:'单独撒a',
-            intro:'是经典款',
-            src:'img/1.jpg'
+            iconCls:'menu-shgl',
+            text:'审核管理',
+            path:'/shgl'
         },
         {
-            title:'单独撒a',
-            intro:'是经典款',
-            src:'img/1.jpg'
+            iconCls:'menu-jxkh',
+            text:'绩效考核',
+            path:'/jxkh'
         },
         {
-            title:'单独撒a',
-            intro:'是经典款',
-            src:'img/1.jpg'
+            iconCls:'menu-rxbz',
+            text:'人像比中',
+            path:'/rxbz'
+        },
+        {
+            iconCls:'menu-mbxyrk',
+            text:'目标嫌疑库',
+            path:'/mbxyk'
+        },
+        {
+            iconCls:'menu-wdsc',
+            text:'我的收藏',
+            path:'/wdsc'
         }
     ]
 };
@@ -205,5 +58,41 @@ export let homeData = (state = defaultState,action = {}) => {
 };
 
 let reducer = {
-
+    loadHomeData(state,action){
+        state.loadingData = true;
+        let props = [];
+        wt.forEach(Url,(value,name) => {
+            let promise = new Promise((cb,eb) => {
+                $.ajax({
+                    url:value,
+                    success:cb,
+                    error:eb
+                });
+            });
+            props.push({
+                type:name,
+                promise
+            });
+        });
+        Promise.all(props.map(item => item.promise)).then(result => {
+            let data = {};
+            result.forEach((item,i) => {
+                data[props[i].type + 'Data'] = item;
+            });
+            dispatch({
+                type:'loadHomeDataEnd',
+                data:data
+            });
+        },e => {
+            dispatch({
+                type:'loadHomeDataEnd',
+                data:{}
+            });
+        });
+    },
+    loadHomeDataEnd(state,action){
+        state.loadingData = false;
+        wt.extend(state,action.data);
+    }
 };
+

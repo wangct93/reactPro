@@ -8,18 +8,19 @@ import {Provider, connect} from 'react-redux';
 import {HashRouter, NavLink, Switch, Route, Redirect, Link} from 'react-router-dom';
 import {Icon} from 'antd';
 
-export default connect(state => state.routerData)(props => {
-    let {list} = props;
+export default props => {
+    let {data} = props;
     return <div className="header">
-        <nav className="nav-list">
+        <nav className="nav-box">
             {
-                list.map(({path,text,iconCls},i) => {
-                    return <NavLink key={i} to={path}>
-                        <Icon type={iconCls} />
+                data.map((item,i) => {
+                    let {text,path,iconCls} = item;
+                    return <NavLink to={path} className="nav-item" key={i}>
+                        <Icon type={iconCls}/>
                         <span>{text}</span>
                     </NavLink>
                 })
             }
         </nav>
-    </div>;
-});
+    </div>
+}
