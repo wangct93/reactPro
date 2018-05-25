@@ -6,6 +6,10 @@ import Cly from '@/views/platform/lib/cly';
 import Shy from '@/views/platform/lib/shy';
 import Ypy from '@/views/platform/lib/ypy';
 import Asjlb from '@/views/platform/lib/asjlb';
+
+import CaseData from '@/json/caseData.json';
+
+
 let defaultState = {
     navList:[
         {
@@ -101,5 +105,61 @@ export let platformData = (state = defaultState,action = {}) => {
 };
 
 let reducer = {
-
+    loadClyData(state,action){
+        let clyState = wt.getValue(state,'cly',{});
+        clyState.loading = true;
+        setTimeout(() => {
+            let params = wt.getValue(clyState,'params',{});
+            wt.extend(params,action.params);
+            let {start,limit,ladw,caseType,caseId,lasj} = params;
+            let rows = CaseData.rows.filter(item => {
+                let {CATEGORIES,CREATEDEPTNAME,OLDCASEID,CREATEDATE_SHOWVALUE} = item;
+                if((ladw && ladw.indexOf(CREATEDEPTNAME) === -1)){
+                    return false;
+                }
+                if(caseType && CATEGORIES !== caseType){
+                    return false;
+                }
+                if(caseId && OLDCASEID !== caseId){
+                    return false;
+                }
+                if(lasj){
+                    let itemTime = +new Date(CREATEDATE_SHOWVALUE);
+                    if(lasj[0]){
+                        let startTime = +new Date(lasj[0]);
+                        if(itemTime < startTime){
+                            return false;
+                        }
+                    }
+                    if(lasj[1]){
+                        let endTime = +new Date(lasj[1]);
+                        if(itemTime > endTime){
+                            return false;
+                        }
+                    }
+                }
+                return true;
+            });
+            dispatch({
+                type:'loadClyDataEnd',
+                data:{
+                    total:rows.length,
+                    rows:rows.slice(start,start + limit)
+                }
+            });
+        },1000);
+    },
+    loadClyDataEnd(state,action){
+        let {data} = action;
+        let clyState = wt.getValue(state,'cly',{});
+        wt.extend(clyState,{
+            data:data.rows,
+            total:data.total
+        });
+        clyState.loading = false;
+    },
+    clearClyParams(state,action){
+        let clyState = wt.getValue(state,'cly',{});
+        delete clyState.params;
+    }
 };

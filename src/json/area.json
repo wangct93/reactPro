@@ -1,0 +1,1371 @@
+{
+  "state": "open",
+  "text": "浙江省公安厅",
+  "id": "330000000000",
+  "lev": "1",
+  "domId": "_easyui_tree_1",
+  "target": {},
+  "hidden": false,
+  "children": [
+    {
+      "state": "closed",
+      "text": "浙江省公安厅国内安全保卫总队",
+      "id": "330000010000",
+      "lev": "2",
+      "domId": "_easyui_tree_80",
+      "target": {},
+      "children": [
+        {
+          "state": "open",
+          "text": "浙江省公安厅国内安全保卫总队政工室",
+          "id": "330000010700",
+          "lev": "3",
+          "domId": "_easyui_tree_135",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅国内安全保卫总队综合室",
+          "id": "330000011400",
+          "lev": "3",
+          "domId": "_easyui_tree_136",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅国内安全保卫总队机动侦察支队",
+          "id": "330000011500",
+          "lev": "3",
+          "domId": "_easyui_tree_137",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅国内安全保卫总队反颠覆破坏侦察支队",
+          "id": "330000012100",
+          "lev": "3",
+          "domId": "_easyui_tree_138",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅国内安全保卫总队民族宗教领域保卫支队",
+          "id": "330000012200",
+          "lev": "3",
+          "domId": "_easyui_tree_139",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅国内安全保卫总队文化与高校领域保卫支队",
+          "id": "330000012300",
+          "lev": "3",
+          "domId": "_easyui_tree_140",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅国内安全保卫总队境外调研支队",
+          "id": "330000012400",
+          "lev": "3",
+          "domId": "_easyui_tree_141",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅国内安全保卫总队情报支队",
+          "id": "330000012500",
+          "lev": "3",
+          "domId": "_easyui_tree_142",
+          "target": {}
+        },
+        {
+          "state": "closed",
+          "text": "浙江省公安厅防范和处理邪教犯罪工作处",
+          "id": "330000260000",
+          "lev": "3",
+          "domId": "_easyui_tree_143",
+          "target": {}
+        }
+      ]
+    },
+    {
+      "state": "closed",
+      "text": "浙江省公安厅经济犯罪侦查总队",
+      "id": "330000020000",
+      "lev": "2",
+      "domId": "_easyui_tree_81",
+      "target": {},
+      "children": [
+        {
+          "state": "open",
+          "text": "浙江省公安厅经济犯罪侦查总队政工室",
+          "id": "330000021100",
+          "lev": "3",
+          "domId": "_easyui_tree_144",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅经济犯罪侦查总队综合室",
+          "id": "330000021200",
+          "lev": "3",
+          "domId": "_easyui_tree_145",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅经济犯罪侦查总队金融犯罪侦查支队",
+          "id": "330000022100",
+          "lev": "3",
+          "domId": "_easyui_tree_146",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅经济犯罪侦查总队税收犯罪侦查支队",
+          "id": "330000022200",
+          "lev": "3",
+          "domId": "_easyui_tree_147",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅经济犯罪侦查总队市场犯罪侦查支队",
+          "id": "330000022300",
+          "lev": "3",
+          "domId": "_easyui_tree_148",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅经济犯罪侦查总队知识产权犯罪侦查支队",
+          "id": "330000022400",
+          "lev": "3",
+          "domId": "_easyui_tree_149",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅经济犯罪侦查总队执法监督支队",
+          "id": "330000022500",
+          "lev": "3",
+          "domId": "_easyui_tree_150",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅经济犯罪侦查总队情报支队",
+          "id": "330000022600",
+          "lev": "3",
+          "domId": "_easyui_tree_151",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅经济犯罪侦查总队缉捕行动队",
+          "id": "330000022700",
+          "lev": "3",
+          "domId": "_easyui_tree_152",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅经济犯罪侦查总队假币侦查支队",
+          "id": "330000022800",
+          "lev": "3",
+          "domId": "_easyui_tree_153",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅经济犯罪侦查总队直属侦查队",
+          "id": "330000022900",
+          "lev": "3",
+          "domId": "_easyui_tree_154",
+          "target": {}
+        }
+      ]
+    },
+    {
+      "state": "closed",
+      "text": "浙江省公安厅治安监督管理总队",
+      "id": "330000030000",
+      "lev": "2",
+      "domId": "_easyui_tree_82",
+      "target": {},
+      "children": [
+        {
+          "state": "open",
+          "text": "浙江省公安厅治安监督管理总队处突安保板块",
+          "id": "330000031600",
+          "lev": "3",
+          "domId": "_easyui_tree_155",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅治安监督管理总队人口管理服务板块",
+          "id": "330000031800",
+          "lev": "3",
+          "domId": "_easyui_tree_156",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅治安监督管理总队流动人口综合信息中心",
+          "id": "330000031900",
+          "lev": "3",
+          "domId": "_easyui_tree_157",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅治安监督管理总队政工综合保障板块",
+          "id": "330000032000",
+          "lev": "3",
+          "domId": "_easyui_tree_158",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅治安监督管理总队行业物品监管板块",
+          "id": "330000032100",
+          "lev": "3",
+          "domId": "_easyui_tree_159",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅治安监督管理总队内保保安监管板块",
+          "id": "330000032300",
+          "lev": "3",
+          "domId": "_easyui_tree_160",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅治安监督管理总队案件侦查板块",
+          "id": "330000032400",
+          "lev": "3",
+          "domId": "_easyui_tree_161",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅治安监督管理总队治安防控板块",
+          "id": "330000032600",
+          "lev": "3",
+          "domId": "_easyui_tree_162",
+          "target": {}
+        },
+        {
+          "state": "closed",
+          "text": "浙江省公安厅居民身份证制作中心",
+          "id": "330000530000",
+          "lev": "3",
+          "domId": "_easyui_tree_163",
+          "target": {}
+        }
+      ]
+    },
+    {
+      "state": "closed",
+      "text": "浙江省公安厅刑事侦查总队",
+      "id": "330000050000",
+      "lev": "2",
+      "domId": "_easyui_tree_83",
+      "target": {},
+      "children": [
+        {
+          "state": "open",
+          "text": "浙江省公安厅刑事侦查总队政工室",
+          "id": "330000051200",
+          "lev": "3",
+          "domId": "_easyui_tree_164",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅刑事侦查总队综合室",
+          "id": "330000051300",
+          "lev": "3",
+          "domId": "_easyui_tree_165",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅刑事侦查总队侵财犯罪侦查支队",
+          "id": "330000051400",
+          "lev": "3",
+          "domId": "_easyui_tree_166",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅刑事侦查总队大要案侦查支队",
+          "id": "330000052100",
+          "lev": "3",
+          "domId": "_easyui_tree_167",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅刑事侦查总队有组织犯罪侦查支队",
+          "id": "330000052200",
+          "lev": "3",
+          "domId": "_easyui_tree_168",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅刑事侦查总队预审办案支队",
+          "id": "330000052300",
+          "lev": "3",
+          "domId": "_easyui_tree_169",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅刑事侦查总队情报支队",
+          "id": "330000052400",
+          "lev": "3",
+          "domId": "_easyui_tree_170",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅刑事侦查总队技术管理支队",
+          "id": "330000052500",
+          "lev": "3",
+          "domId": "_easyui_tree_171",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅刑事侦查总队法医支队",
+          "id": "330000052600",
+          "lev": "3",
+          "domId": "_easyui_tree_172",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅刑事侦查总队痕迹支队",
+          "id": "330000052700",
+          "lev": "3",
+          "domId": "_easyui_tree_173",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅刑事侦查总队理化文检支队",
+          "id": "330000052800",
+          "lev": "3",
+          "domId": "_easyui_tree_174",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅刑事侦查总队视频侦查支队",
+          "id": "330000052900",
+          "lev": "3",
+          "domId": "_easyui_tree_175",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅刑事侦查总队警犬管理支队",
+          "id": "330000053000",
+          "lev": "3",
+          "domId": "_easyui_tree_176",
+          "target": {}
+        },
+        {
+          "state": "closed",
+          "text": "浙江省公安物证鉴定中心",
+          "id": "330000660000",
+          "lev": "3",
+          "domId": "_easyui_tree_177",
+          "target": {}
+        }
+      ]
+    },
+    {
+      "state": "closed",
+      "text": "浙江省公安厅出入境管理局",
+      "id": "330000060000",
+      "lev": "2",
+      "domId": "_easyui_tree_84",
+      "target": {},
+      "children": [
+        {
+          "state": "open",
+          "text": "浙江省公安厅出入境管理局政工室",
+          "id": "330000060800",
+          "lev": "3",
+          "domId": "_easyui_tree_178",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅出入境管理局综合室",
+          "id": "330000060900",
+          "lev": "3",
+          "domId": "_easyui_tree_179",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅出入境管理局境外人员服务管理支队",
+          "id": "330000061100",
+          "lev": "3",
+          "domId": "_easyui_tree_180",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅出入境管理局公民出国（境）服务管理支队",
+          "id": "330000061200",
+          "lev": "3",
+          "domId": "_easyui_tree_181",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅出入境管理局出入境办案指导支队",
+          "id": "330000061300",
+          "lev": "3",
+          "domId": "_easyui_tree_182",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅出入境管理局技术保障支队",
+          "id": "330000061400",
+          "lev": "3",
+          "domId": "_easyui_tree_183",
+          "target": {}
+        },
+        {
+          "state": "closed",
+          "text": "浙江省公安厅机场签证办事处",
+          "id": "330000500000",
+          "lev": "3",
+          "domId": "_easyui_tree_184",
+          "target": {}
+        },
+        {
+          "state": "closed",
+          "text": "浙江省公安厅出入境证照制作中心",
+          "id": "330000540000",
+          "lev": "3",
+          "domId": "_easyui_tree_185",
+          "target": {}
+        }
+      ]
+    },
+    {
+      "state": "closed",
+      "text": "浙江省公安厅网络安全保卫总队",
+      "id": "330000110000",
+      "lev": "2",
+      "domId": "_easyui_tree_85",
+      "target": {},
+      "children": [
+        {
+          "state": "open",
+          "text": "浙江省公安厅网络安全保卫总队政工室",
+          "id": "330000110700",
+          "lev": "3",
+          "domId": "_easyui_tree_186",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅网络安全保卫总队综合室",
+          "id": "330000110800",
+          "lev": "3",
+          "domId": "_easyui_tree_187",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅网络安全保卫总队信息巡控支队",
+          "id": "330000111100",
+          "lev": "3",
+          "domId": "_easyui_tree_188",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅网络安全保卫总队情报特侦支队",
+          "id": "330000111200",
+          "lev": "3",
+          "domId": "_easyui_tree_189",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅网络安全保卫总队安全监管支队",
+          "id": "330000111300",
+          "lev": "3",
+          "domId": "_easyui_tree_190",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅网络安全保卫总队案件侦查支队",
+          "id": "330000111400",
+          "lev": "3",
+          "domId": "_easyui_tree_191",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅网络安全保卫总队技术保障支队",
+          "id": "330000111500",
+          "lev": "3",
+          "domId": "_easyui_tree_192",
+          "target": {}
+        },
+        {
+          "state": "closed",
+          "text": "浙江省网络与信息安全信息通报中心",
+          "id": "330000480000",
+          "lev": "3",
+          "domId": "_easyui_tree_193",
+          "target": {}
+        }
+      ]
+    },
+    {
+      "state": "closed",
+      "text": "浙江省公安厅技术侦察总队",
+      "id": "330000120000",
+      "lev": "2",
+      "domId": "_easyui_tree_86",
+      "target": {},
+      "children": [
+        {
+          "state": "open",
+          "text": "浙江省公安厅技术侦察总队指挥监督中心",
+          "id": "330000121100",
+          "lev": "3",
+          "domId": "_easyui_tree_194",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅技术侦察总队政工综合室",
+          "id": "330000122000",
+          "lev": "3",
+          "domId": "_easyui_tree_195",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅技术侦察总队重大案件侦察支队",
+          "id": "330000122100",
+          "lev": "3",
+          "domId": "_easyui_tree_196",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅技术侦察总队情报支队",
+          "id": "330000122200",
+          "lev": "3",
+          "domId": "_easyui_tree_197",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅技术侦察总队综合手段业务指导支队",
+          "id": "330000122300",
+          "lev": "3",
+          "domId": "_easyui_tree_198",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅技术侦察总队技术保障支队",
+          "id": "330000122400",
+          "lev": "3",
+          "domId": "_easyui_tree_199",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅技术侦察总队直属义乌支队",
+          "id": "330000122500",
+          "lev": "3",
+          "domId": "_easyui_tree_200",
+          "target": {}
+        }
+      ]
+    },
+    {
+      "state": "closed",
+      "text": "浙江省公安厅监管总队",
+      "id": "330000130000",
+      "lev": "2",
+      "domId": "_easyui_tree_87",
+      "target": {},
+      "children": [
+        {
+          "state": "open",
+          "text": "浙江省公安厅监管总队政工综合室",
+          "id": "330000131000",
+          "lev": "3",
+          "domId": "_easyui_tree_201",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅监管总队刑事羁押管理支队",
+          "id": "330000131100",
+          "lev": "3",
+          "domId": "_easyui_tree_202",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅监管总队行政执押管理支队",
+          "id": "330000131200",
+          "lev": "3",
+          "domId": "_easyui_tree_203",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅监管总队监所保障支队",
+          "id": "330000131300",
+          "lev": "3",
+          "domId": "_easyui_tree_204",
+          "target": {}
+        },
+        {
+          "state": "closed",
+          "text": "浙江省看守所",
+          "id": "330000290000",
+          "lev": "3",
+          "domId": "_easyui_tree_205",
+          "target": {}
+        }
+      ]
+    },
+    {
+      "state": "closed",
+      "text": "浙江省公安厅审计处",
+      "id": "330000150000",
+      "lev": "2",
+      "domId": "_easyui_tree_88",
+      "target": {},
+      "children": [
+        {
+          "state": "open",
+          "text": "浙江省公安厅审计处业务科",
+          "id": "330000150200",
+          "lev": "3",
+          "domId": "_easyui_tree_206",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅审计处直属审计科",
+          "id": "330000150300",
+          "lev": "3",
+          "domId": "_easyui_tree_207",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅审计处政工室",
+          "id": "330000150400",
+          "lev": "3",
+          "domId": "_easyui_tree_208",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅审计处综合室",
+          "id": "330000150500",
+          "lev": "3",
+          "domId": "_easyui_tree_209",
+          "target": {}
+        }
+      ]
+    },
+    {
+      "state": "closed",
+      "text": "浙江省公安厅高速公路交通警察总队",
+      "id": "330000160000",
+      "lev": "2",
+      "domId": "_easyui_tree_89",
+      "target": {},
+      "children": [
+        {
+          "state": "open",
+          "text": "浙江省公安厅高速公路交通警察总队政治处",
+          "id": "330000160100",
+          "lev": "3",
+          "domId": "_easyui_tree_210",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅高速公路交通警察总队综合指挥支队",
+          "id": "330000160200",
+          "lev": "3",
+          "domId": "_easyui_tree_211",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅高速公路交通警察总队交通管理支队",
+          "id": "330000160300",
+          "lev": "3",
+          "domId": "_easyui_tree_212",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅高速公路交通警察总队警务保障支队",
+          "id": "330000160400",
+          "lev": "3",
+          "domId": "_easyui_tree_213",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅高速公路交通警察总队机动支队",
+          "id": "330000160500",
+          "lev": "3",
+          "domId": "_easyui_tree_214",
+          "target": {}
+        },
+        {
+          "state": "closed",
+          "text": "浙江省公安厅高速公路交通警察总队杭州支队",
+          "id": "330000160600",
+          "lev": "3",
+          "domId": "_easyui_tree_215",
+          "target": {}
+        },
+        {
+          "state": "closed",
+          "text": "浙江省公安厅高速公路交通警察总队宁波支队",
+          "id": "330000160700",
+          "lev": "3",
+          "domId": "_easyui_tree_216",
+          "target": {}
+        },
+        {
+          "state": "closed",
+          "text": "浙江省公安厅高速公路交通警察总队温州支队",
+          "id": "330000160800",
+          "lev": "3",
+          "domId": "_easyui_tree_217",
+          "target": {}
+        },
+        {
+          "state": "closed",
+          "text": "浙江省公安厅高速公路交通警察总队嘉兴支队",
+          "id": "330000160900",
+          "lev": "3",
+          "domId": "_easyui_tree_218",
+          "target": {}
+        },
+        {
+          "state": "closed",
+          "text": "浙江省公安厅高速公路交通警察总队湖州支队",
+          "id": "330000161000",
+          "lev": "3",
+          "domId": "_easyui_tree_219",
+          "target": {}
+        },
+        {
+          "state": "closed",
+          "text": "浙江省公安厅高速公路交通警察总队绍兴支队",
+          "id": "330000161100",
+          "lev": "3",
+          "domId": "_easyui_tree_220",
+          "target": {}
+        },
+        {
+          "state": "closed",
+          "text": "浙江省公安厅高速公路交通警察总队金华支队",
+          "id": "330000161200",
+          "lev": "3",
+          "domId": "_easyui_tree_221",
+          "target": {}
+        },
+        {
+          "state": "closed",
+          "text": "浙江省公安厅高速公路交通警察总队衢州支队",
+          "id": "330000161300",
+          "lev": "3",
+          "domId": "_easyui_tree_222",
+          "target": {}
+        },
+        {
+          "state": "closed",
+          "text": "浙江省公安厅高速公路交通警察总队丽水支队",
+          "id": "330000161400",
+          "lev": "3",
+          "domId": "_easyui_tree_223",
+          "target": {}
+        },
+        {
+          "state": "closed",
+          "text": "浙江省公安厅高速公路交通警察总队台州支队",
+          "id": "330000161500",
+          "lev": "3",
+          "domId": "_easyui_tree_224",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅高速公路交通警察总队法制支队",
+          "id": "330000161600",
+          "lev": "3",
+          "domId": "_easyui_tree_225",
+          "target": {}
+        },
+        {
+          "state": "closed",
+          "text": "浙江省公安厅高速公路交通警察总队舟山支队",
+          "id": "330000161700",
+          "lev": "3",
+          "domId": "_easyui_tree_226",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅高速公路交通警察总队警务督察支队",
+          "id": "330000161800",
+          "lev": "3",
+          "domId": "_easyui_tree_227",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅高速公路交通警察总队科技信息支队",
+          "id": "330000161900",
+          "lev": "3",
+          "domId": "_easyui_tree_228",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅高速公路交通警察总队政治处组织人事科",
+          "id": "330000162000",
+          "lev": "3",
+          "domId": "_easyui_tree_229",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅高速公路交通警察总队政治处宣传教育科",
+          "id": "330000162100",
+          "lev": "3",
+          "domId": "_easyui_tree_230",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅高速公路交通警察总队警卫支队",
+          "id": "330000162300",
+          "lev": "3",
+          "domId": "_easyui_tree_231",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅高速公路交通警察总队纪委",
+          "id": "330000162400",
+          "lev": "3",
+          "domId": "_easyui_tree_232",
+          "target": {}
+        }
+      ]
+    },
+    {
+      "state": "closed",
+      "text": "浙江省公安厅交通管理局",
+      "id": "330000170000",
+      "lev": "2",
+      "domId": "_easyui_tree_90",
+      "target": {},
+      "children": [
+        {
+          "state": "open",
+          "text": "浙江省公安厅交通管理局政工综合室",
+          "id": "330000172000",
+          "lev": "3",
+          "domId": "_easyui_tree_233",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅交通管理局交通事故对策支队",
+          "id": "330000172100",
+          "lev": "3",
+          "domId": "_easyui_tree_234",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅交通管理局交通秩序管理支队",
+          "id": "330000172200",
+          "lev": "3",
+          "domId": "_easyui_tree_235",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅交通管理局法制宣传支队",
+          "id": "330000172300",
+          "lev": "3",
+          "domId": "_easyui_tree_236",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅交通管理局财务装备支队",
+          "id": "330000172400",
+          "lev": "3",
+          "domId": "_easyui_tree_237",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅交通管理局科技保障支队",
+          "id": "330000172500",
+          "lev": "3",
+          "domId": "_easyui_tree_238",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省交通警察培训中心",
+          "id": "330000580000",
+          "lev": "3",
+          "domId": "_easyui_tree_239",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省机动车辆安全检测中心",
+          "id": "330000590000",
+          "lev": "3",
+          "domId": "_easyui_tree_240",
+          "target": {}
+        },
+        {
+          "state": "closed",
+          "text": "浙江省公安厅车辆管理所",
+          "id": "330000680000",
+          "lev": "3",
+          "domId": "_easyui_tree_241",
+          "target": {}
+        }
+      ]
+    },
+    {
+      "state": "closed",
+      "text": "浙江省公安厅法制总队",
+      "id": "330000180000",
+      "lev": "2",
+      "domId": "_easyui_tree_91",
+      "target": {},
+      "children": [
+        {
+          "state": "open",
+          "text": "浙江省公安厅法制总队信访",
+          "id": "330000180500",
+          "lev": "3",
+          "domId": "_easyui_tree_242",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅法制总队政工综合室",
+          "id": "330000181000",
+          "lev": "3",
+          "domId": "_easyui_tree_243",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅法制总队行政复议办公室",
+          "id": "330000181100",
+          "lev": "3",
+          "domId": "_easyui_tree_244",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅法制总队执法指导支队",
+          "id": "330000181200",
+          "lev": "3",
+          "domId": "_easyui_tree_245",
+          "target": {}
+        },
+        {
+          "state": "open",
+          "text": "浙江省公安厅法制总队执法监督支队",
+          "id": "330000181300",
+          "lev": "3",
+          "domId": "_easyui_tree_246",
+          "target": {}
+        }
+      ]
+    },
+    {
+      "state": "closed",
+      "text": "浙江省公安警务航空队",
+      "id": "330000200000",
+      "lev": "2",
+      "domId": "_easyui_tree_92",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "浙江省公安厅禁毒总队",
+      "id": "330000210000",
+      "lev": "2",
+      "domId": "_easyui_tree_93",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "浙江省公安厅科技信息化局",
+      "id": "330000240000",
+      "lev": "2",
+      "domId": "_easyui_tree_94",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "浙江省公安厅情报中心",
+      "id": "330000280000",
+      "lev": "2",
+      "domId": "_easyui_tree_95",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "浙江省公安厅指挥中心",
+      "id": "330000300000",
+      "lev": "2",
+      "domId": "_easyui_tree_96",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "浙江省公安厅办公室",
+      "id": "330000310000",
+      "lev": "2",
+      "domId": "_easyui_tree_97",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "中共浙江省纪委派驻浙江省公安厅纪律检查组",
+      "id": "330000320000",
+      "lev": "2",
+      "domId": "_easyui_tree_98",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "浙江省公安厅警务督察总队",
+      "id": "330000340000",
+      "lev": "2",
+      "domId": "_easyui_tree_99",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "浙江省公安厅政治部",
+      "id": "330000350000",
+      "lev": "2",
+      "domId": "_easyui_tree_100",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "浙江省公安厅直属机关党委",
+      "id": "330000380000",
+      "lev": "2",
+      "domId": "_easyui_tree_101",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "浙江省公安厅离退休干部处",
+      "id": "330000390000",
+      "lev": "2",
+      "domId": "_easyui_tree_102",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "浙江省公安厅警务保障部",
+      "id": "330000400000",
+      "lev": "2",
+      "domId": "_easyui_tree_103",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "浙江省公安厅反恐怖总队",
+      "id": "330000430000",
+      "lev": "2",
+      "domId": "_easyui_tree_104",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "浙江省公安厅人口服务管理总队",
+      "id": "330000470000",
+      "lev": "2",
+      "domId": "_easyui_tree_105",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "浙江省公安厅机场公安局",
+      "id": "330000490000",
+      "lev": "2",
+      "domId": "_easyui_tree_106",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "浙江警察学院",
+      "id": "330000510000",
+      "lev": "2",
+      "domId": "_easyui_tree_107",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "浙江省公安边防总队",
+      "id": "330000B00000",
+      "lev": "2",
+      "domId": "_easyui_tree_108",
+      "target": {}
+    },
+    {
+      "state": "open",
+      "text": "浙江省公安边防总队船艇修船厂",
+      "id": "330000B003B0",
+      "lev": "2",
+      "domId": "_easyui_tree_109",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "公安海警东海指挥部",
+      "id": "330000B10000",
+      "lev": "2",
+      "domId": "_easyui_tree_110",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "浙江省公安边防总队海警第一支队",
+      "id": "330000C40000",
+      "lev": "2",
+      "domId": "_easyui_tree_111",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "浙江省公安边防总队海警第二支队",
+      "id": "330000C50000",
+      "lev": "2",
+      "domId": "_easyui_tree_112",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "杭州海关缉私局",
+      "id": "330000H10000",
+      "lev": "2",
+      "domId": "_easyui_tree_113",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "宁波海关缉私局",
+      "id": "330000H20000",
+      "lev": "2",
+      "domId": "_easyui_tree_114",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "浙江警卫局",
+      "id": "330000J00000",
+      "lev": "2",
+      "domId": "_easyui_tree_115",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "浙江省公安厅森林警察总队",
+      "id": "330000S00000",
+      "lev": "2",
+      "domId": "_easyui_tree_116",
+      "target": {}
+    },
+    {
+      "state": "open",
+      "text": "浙江省高级人民法院",
+      "id": "330000WB9131",
+      "lev": "2",
+      "domId": "_easyui_tree_117",
+      "target": {}
+    },
+    {
+      "state": "open",
+      "text": "浙江省人民检察院",
+      "id": "330000WB9132",
+      "lev": "2",
+      "domId": "_easyui_tree_118",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "浙江省公安消防总队",
+      "id": "330000X00000",
+      "lev": "2",
+      "domId": "_easyui_tree_119",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "国家陆地搜寻与救护基地",
+      "id": "330000X10000",
+      "lev": "2",
+      "domId": "_easyui_tree_120",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "浙江省杭州市公安局",
+      "id": "330100000000",
+      "lev": "2",
+      "domId": "_easyui_tree_121",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "浙江省宁波市公安局",
+      "id": "330200000000",
+      "lev": "2",
+      "domId": "_easyui_tree_122",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "浙江省温州市公安局",
+      "id": "330300000000",
+      "lev": "2",
+      "domId": "_easyui_tree_123",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "浙江省嘉兴市公安局",
+      "id": "330400000000",
+      "lev": "2",
+      "domId": "_easyui_tree_124",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "浙江省湖州市公安局",
+      "id": "330500000000",
+      "lev": "2",
+      "domId": "_easyui_tree_125",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "浙江省绍兴市公安局",
+      "id": "330600000000",
+      "lev": "2",
+      "domId": "_easyui_tree_126",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "浙江省金华市公安局",
+      "id": "330700000000",
+      "lev": "2",
+      "domId": "_easyui_tree_127",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "浙江省衢州市公安局",
+      "id": "330800000000",
+      "lev": "2",
+      "domId": "_easyui_tree_128",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "浙江省舟山市公安局",
+      "id": "330900000000",
+      "lev": "2",
+      "domId": "_easyui_tree_129",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "浙江省台州市公安局",
+      "id": "331000000000",
+      "lev": "2",
+      "domId": "_easyui_tree_130",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "浙江省丽水市公安局",
+      "id": "331100000000",
+      "lev": "2",
+      "domId": "_easyui_tree_131",
+      "target": {}
+    },
+    {
+      "state": "open",
+      "text": "其他人员部门",
+      "id": "33V000000000",
+      "lev": "2",
+      "domId": "_easyui_tree_132",
+      "target": {}
+    },
+    {
+      "state": "open",
+      "text": "警察协会",
+      "id": "33VTXL000100",
+      "lev": "2",
+      "domId": "_easyui_tree_133",
+      "target": {}
+    },
+    {
+      "state": "closed",
+      "text": "杭州铁路公安处",
+      "id": "800704000000",
+      "lev": "2",
+      "domId": "_easyui_tree_134",
+      "target": {}
+    }
+  ]
+}

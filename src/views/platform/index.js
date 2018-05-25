@@ -42,7 +42,9 @@ class Platform extends Component{
             </div>
             <div className="right">
                 <RightHeader data={userTypeList}/>
-                <SwitchRouter basename={basePath} data={routerData} />
+                <div className="right-content">
+                    <SwitchRouter basename={basePath} data={routerData} />
+                </div>
             </div>
         </div>
     }

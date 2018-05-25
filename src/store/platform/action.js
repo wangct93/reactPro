@@ -5,15 +5,16 @@
 
 
 
-export let login = data => {
+export let loadData = (type,params) => {
+    type = 'load' + type.replace(/^[\w\W]{1}/,match => match.toUpperCase()) + 'Data';
     return {
-        type:'login',
-        data
+        type,
+        params
     }
 };
 
-export const clearAlerInfo = () => {
+export const clearClyParams = () => {
     return {
-        type:'clearLoginAlertInfo'
+        type:'clearClyParams'
     }
 };

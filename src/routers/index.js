@@ -11,9 +11,7 @@ import SwitchRouter from '../components/switchRouter';
 
 import Header from '../views/header';
 
-export default connect(state => {
-    return state.routerData;
-})(({list,headerNavData}) => {
+export default connect(state => state.routerData)(({list,headerNavData}) => {
     return <HashRouter>
         <React.Fragment>
             <Header data={headerNavData}/>
